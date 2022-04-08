@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>		
+		<h3>4. Design the following web page using Html forms</h3>
+		
+		<form>
+			<fieldset>
+				<legend>Academic Information:</legend>
+				<label> Degree</label>
+					<select name="us">
+						<option value="business" selected="selected">Master of business Administration</option>
+						<option value="Computer">Master of Computer Science</option>
+						<option value="Information">Master of Information Technology</option>
+					</select><br>
+				<label>Student ID:</label>
+				<input name="sid" type="text"/><br/>
+				<label>class Attended:</label>
+				<select name="subjects" size="3" multiple="multiple">
+					<option value="business" selected="selected">Geograph</option>
+					<option value="Computer">Mathematic</option>
+					<option value="Information">English</option>
+				</select><br>
+			</fieldset>
+			<fieldset>
+				<legend>Personal Details:</legend>
+				<label>First Name:</label>
+				<input name="fname" type="text"/><br/>
+				<label>Last Name:</label>
+				<input name="lname" type="text"/><br/>
+				<label> Gender:</label>
+				<label> Male</label>
+				<input type="radio" name="gender" value="Male"/>
+				<label>Female</label>
+				<input type="radio" name="gender" value="Female" checked/>
+				<br>
+				<label>Email:</label>
+				<input name="mail" type="text"/><br/>
+			</fieldset>
+			<textarea cols="50" rows="10" placeholder="TERMS AND CONDITIONS..............."></textarea>
+			<br/><br>
+			<input name="send" type="button" value="SendForm"><input name="clear" type="button" value="ClearForm"> <br/>
+			
+	</body>
+</html>
